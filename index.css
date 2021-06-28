@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    display: inline-block;
+    background: url(images/b2.jpg) no-repeat;
+    background-size: cover;
+
+
+    background-origin: border-box;
+    height: 97vmin;
+    margin-bottom: 70px;
+
+    /* background-clip: content-box; */
+
+    color: white;
+
+
+
+    display: block;
+
+}
+
+
+.nav-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 4px 13px 4px;
+}
+
+
+.nav-logo button {
+    margin-right: 20px;
+}
+
+#navbar {
+    padding-top: 15px;
+
+}
+
+#navbar ul {
+    display: none;
+
+}
+
+#navbar ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+button {
+
+    background-color: #a3c962;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 8px 20px;
+    font-size: 15px;
+
+    border-radius: 500px;
+}
+
+.nav-logo h1 a {
+    margin-left: 20px;
+    font-size: 27px;
+    color: white;
+    font-family: 'Open Sans',
+        sans-serif;
+    display: initial;
+    font-weight: bold;
+
+}
+
+.content {
+
+    display: block;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    position: relative;
+    top: 15%;
+}
+
+.content h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: lighter;
+
+}
+
+.content p {
+    color: #dadada;
+    font-size: 16px;
+    text-shadow: 2px 2px 8px #000;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: inherit;
+
+}
+
+.content .btn-white {
+    background-color: #fff;
+    color: #a3c962;
+    margin-right: 8px;
+    margin-bottom: 95px;
+    padding: 12px 25px 12px 25px;
+}
+
+.content .btn-green {
+    border-style: unset;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 25px 10px 25px;
+}
+
+.content .btn-green:hover,
+.content .btn-white:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.center {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textgreen {
+    color: #a3c962 !important;
+}
+
+@media screen and (min-width : 1000px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+
+
+    }
+
+    .nav-logo button {
+        display: none;
+    }
+
+
+    #navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #navbar ul {
+        display: flex;
+        margin-right: 3rem;
+
+
+
+
+    }
+
+    #navbar ul li {
+        padding: 0 1rem;
+
+    }
+
+}
