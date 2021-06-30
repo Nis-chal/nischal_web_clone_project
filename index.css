@@ -431,7 +431,7 @@ button {
 
 .forest {
     background: url(images/s1.jpg);
-    padding-bottom: 4%;
+    padding: 4%;
 }
 
 .forest--text {
@@ -491,7 +491,7 @@ button {
 
 .about {
 
-    padding-bottom: 4%;
+    padding: 4%;
 }
 
 .about--text {
@@ -621,7 +621,7 @@ button {
 
 .Feature {
 
-    padding-bottom: 4%;
+    padding: 4%;
 }
 
 .feature--text {
@@ -693,7 +693,7 @@ button {
 
 .prices {
 
-    padding-bottom: 4%;
+    padding: 4%;
     background-image: url(images/b2.jpg);
 }
 
@@ -766,7 +766,7 @@ button {
 
 .client {
 
-    padding-bottom: 4%;
+    padding: 4%;
 }
 
 .client--text {
@@ -815,6 +815,102 @@ button {
 .client__info>h5 {
     font-weight: lighter;
 }
+
+/* play play play play  section*/
+.play{
+    background: #a3c962;
+}
+.play{
+    text-align: center;
+    padding: 2%;
+    line-height: 35px;
+
+}
+.play span>i{
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    padding: 0.5em;
+    font-size: 0.85rem;
+    border: 24px solid white;
+    cursor: pointer;
+    margin: 35px;
+
+}
+
+
+.play span>i:hover{
+    color: #000;
+    background: #fff;
+    border-color: #000;
+    transition: 1s;
+
+}
+
+.play>h1{
+    color: #fff;
+    font-weight: lighter;
+}
+
+.play>p{
+    color: #676662;
+}
+
+/* team team team team team */
+.team {
+
+    padding: 4%;
+}
+
+.team--text {
+    display: block;
+
+    text-align: center;
+    padding: 10px;
+}
+
+.team--text {
+    color: #676662;
+}
+
+
+
+.team__heading>h4 {
+    color: #a3c962;
+}
+
+.team__heading>h1 {
+    color: #000;
+    font-weight: lighter;
+}
+
+.team__paragraph>p {
+    line-height: 30px;
+    font-weight: lighter;
+}
+.team--box{
+    text-align: center;
+    width: 50%;
+
+   
+}
+.team__container{
+    margin:20px;
+    ;
+}
+.team--box img{
+    width: 100%;
+}
+.team-content{
+    display: flex;
+    gap:20px;
+    
+  
+    
+    
+    
+}
+
 
 
 @media screen and (min-width:540px) {
@@ -1051,7 +1147,7 @@ button {
          font-size: 22px;
          font-weight: lighter;
      }
-     
+
      .feature__container {
          display: flex;
 
@@ -1118,6 +1214,36 @@ button {
     .client--text>.client__heading {
           font-size: 22px;
           font-weight: lighter;
+    }
+
+    /* team team team */
+
+    .team--text {
+        width: 60%;
+        display: flex;
+
+
+
+        margin-left: 15%;
+        gap: 20px;
+
+
+    }
+
+    .team--text>.team__paragraph {
+        width: 50%;
+        text-align: end;
+    }
+
+    .team--text>.team__heading {
+        font-size: 22px;
+        font-weight: lighter;
+    }
+
+
+
+    .fa-wifi {
+        transform: rotate(40deg);
     }
 
 }
@@ -1191,5 +1317,40 @@ button {
         font-size: 20px;
 
     }
+
+    /* team team team team  */
+
+
+    .team__container {
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+
+        line-height: 35px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .team--box>h2 {
+        color: #a3c962;
+    }
+
+    .team--box>h3 {
+        font-weight: lighter;
+    }
+
+    .team__container span>i {
+        background: #000;
+        color: #fff;
+
+        border-radius: 50%;
+        font-size: 0.75rem;
+
+        padding: 0.75em;
+
+
+    }
+
+   
 
 }
