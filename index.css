@@ -478,6 +478,9 @@ button {
     padding: 5%;
 
 }
+.box:hover{
+    background: #cecece;
+}
 
 .box span>i {
     font-size: 1.6rem;
@@ -714,7 +717,9 @@ button {
     padding: 10px;
     color: #fff;
 }
-
+.prices__heading{
+    text-align: end;
+}
 
 
 
@@ -749,9 +754,13 @@ button {
 
 
 }
-
+.price__box span{
+    color: #a3c962;
+    font-size: 1.75rem;
+}
 .price__box-container {
     display: flex;
+    
 }
 
 .price__box>p {
@@ -1081,16 +1090,17 @@ button {
     
 }
 
-.form__area span>input:hover{
+.form__area span>input:focus{
   
-    background: #cecece;
+    background: #fffdfd;
+    outline: 0;
 
 
-    border-width: 1px 1px 1px 1px;
-    border:5px solid rgb(57, 179, 179);
+   
+    border:3px solid rgb(57, 179, 179);
     
     
-    transition: 1s;
+    transition: 0.75s;
     padding: 10px;
 
 
@@ -1584,6 +1594,12 @@ button {
     .team--text>.team__heading {
         font-size: 22px;
         font-weight: lighter;
+        text-align: start;
+    }
+
+    .team--box span>i:hover{
+        color: #a3c962;
+        cursor: pointer;
     }
 
 
@@ -1650,6 +1666,7 @@ button {
     .form--text>.form__heading {
         font-size: 22px;
         font-weight: lighter;
+        text-align: start;
     }
 
 
